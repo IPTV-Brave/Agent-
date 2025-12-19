@@ -1,0 +1,48 @@
+{
+  "name": "ai-auto-post-agent",
+  "version": "1.0.0",
+  "description": "AI-powered automated posting agent for Twitter, Reddit, and Blogger",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test-post": "node src/test-post.js",
+    "logs": "tail -f logs/app.log",
+    "logs:today": "grep $(date +%Y-%m-%d) logs/app.log",
+    "logs:errors": "grep ERROR logs/app.log",
+    "clear-logs": "node src/scripts/clear-logs.js",
+    "generate-plan": "node src/scripts/generate-plan.js",
+    "validate-plan": "node src/scripts/validate-plan.js",
+    "stats": "node src/scripts/show-stats.js",
+    "verify-credentials": "node src/scripts/verify-credentials.js",
+    "backup": "node src/scripts/backup.js",
+    "restore": "node src/scripts/restore.js"
+  },
+  "keywords": [
+    "automation",
+    "social-media",
+    "ai",
+    "twitter",
+    "reddit",
+    "blogger"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "axios": "^1.6.2",
+    "twitter-api-v2": "^1.15.2",
+    "snoowrap": "^1.23.0",
+    "googleapis": "^128.0.0",
+    "winston": "^3.11.0",
+    "anthropic": "^0.9.1",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
