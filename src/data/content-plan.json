@@ -1,0 +1,181 @@
+{
+  "contentPlan": [
+    {
+      "id": 1,
+      "category": "programming_tips",
+      "idea": "Essential debugging techniques every developer should know",
+      "keywords": ["debugging", "development", "coding tips"],
+      "platforms": ["twitter", "reddit", "blogger"],
+      "priority": "high",
+      "targetAudience": "developers",
+      "tone": "professional",
+      "includeBranding": true
+    },
+    {
+      "id": 2,
+      "category": "ai_insights",
+      "idea": "How AI is revolutionizing code reviews and quality assurance",
+      "keywords": ["AI", "code review", "automation"],
+      "platforms": ["twitter", "blogger"],
+      "priority": "high",
+      "targetAudience": "tech professionals",
+      "tone": "informative",
+      "includeBranding": true
+    },
+    {
+      "id": 3,
+      "category": "career_advice",
+      "idea": "Building a strong developer portfolio that stands out",
+      "keywords": ["portfolio", "career", "job search"],
+      "platforms": ["twitter", "reddit"],
+      "priority": "medium",
+      "targetAudience": "junior developers",
+      "tone": "friendly",
+      "includeBranding": true
+    },
+    {
+      "id": 4,
+      "category": "web_development",
+      "idea": "Modern CSS techniques for responsive design in 2024",
+      "keywords": ["CSS", "responsive design", "web development"],
+      "platforms": ["twitter", "reddit", "blogger"],
+      "priority": "high",
+      "targetAudience": "web developers",
+      "tone": "technical",
+      "includeBranding": true
+    },
+    {
+      "id": 5,
+      "category": "productivity",
+      "idea": "Time management strategies for remote developers",
+      "keywords": ["productivity", "remote work", "time management"],
+      "platforms": ["twitter", "reddit"],
+      "priority": "medium",
+      "targetAudience": "remote workers",
+      "tone": "conversational",
+      "includeBranding": true
+    },
+    {
+      "id": 6,
+      "category": "technology_trends",
+      "idea": "The rise of edge computing and its impact on web applications",
+      "keywords": ["edge computing", "web apps", "cloud"],
+      "platforms": ["twitter", "blogger"],
+      "priority": "medium",
+      "targetAudience": "tech enthusiasts",
+      "tone": "informative",
+      "includeBranding": true
+    },
+    {
+      "id": 7,
+      "category": "programming_languages",
+      "idea": "Comparing JavaScript frameworks: React vs Vue vs Angular",
+      "keywords": ["JavaScript", "React", "Vue", "Angular"],
+      "platforms": ["reddit", "blogger"],
+      "priority": "high",
+      "targetAudience": "frontend developers",
+      "tone": "analytical",
+      "includeBranding": true
+    },
+    {
+      "id": 8,
+      "category": "security",
+      "idea": "Common security vulnerabilities and how to prevent them",
+      "keywords": ["security", "vulnerabilities", "best practices"],
+      "platforms": ["twitter", "reddit", "blogger"],
+      "priority": "high",
+      "targetAudience": "all developers",
+      "tone": "serious",
+      "includeBranding": true
+    },
+    {
+      "id": 9,
+      "category": "open_source",
+      "idea": "Getting started with open source contributions",
+      "keywords": ["open source", "GitHub", "contributions"],
+      "platforms": ["twitter", "reddit"],
+      "priority": "medium",
+      "targetAudience": "beginner developers",
+      "tone": "encouraging",
+      "includeBranding": true
+    },
+    {
+      "id": 10,
+      "category": "databases",
+      "idea": "SQL vs NoSQL: Choosing the right database for your project",
+      "keywords": ["database", "SQL", "NoSQL"],
+      "platforms": ["reddit", "blogger"],
+      "priority": "medium",
+      "targetAudience": "backend developers",
+      "tone": "educational",
+      "includeBranding": true
+    },
+    {
+      "id": 11,
+      "category": "devops",
+      "idea": "Docker and containerization basics for developers",
+      "keywords": ["Docker", "containers", "DevOps"],
+      "platforms": ["twitter", "reddit", "blogger"],
+      "priority": "high",
+      "targetAudience": "developers",
+      "tone": "practical",
+      "includeBranding": true
+    },
+    {
+      "id": 12,
+      "category": "testing",
+      "idea": "Test-driven development: Writing better code through testing",
+      "keywords": ["TDD", "testing", "quality"],
+      "platforms": ["twitter", "blogger"],
+      "priority": "medium",
+      "targetAudience": "experienced developers",
+      "tone": "professional",
+      "includeBranding": true
+    },
+    {
+      "id": 13,
+      "category": "api_design",
+      "idea": "RESTful API design principles and best practices",
+      "keywords": ["API", "REST", "design"],
+      "platforms": ["reddit", "blogger"],
+      "priority": "high",
+      "targetAudience": "backend developers",
+      "tone": "technical",
+      "includeBranding": true
+    },
+    {
+      "id": 14,
+      "category": "performance",
+      "idea": "Optimizing web application performance: Tips and tools",
+      "keywords": ["performance", "optimization", "speed"],
+      "platforms": ["twitter", "reddit", "blogger"],
+      "priority": "high",
+      "targetAudience": "web developers",
+      "tone": "practical",
+      "includeBranding": true
+    },
+    {
+      "id": 15,
+      "category": "soft_skills",
+      "idea": "Effective communication in technical teams",
+      "keywords": ["communication", "teamwork", "collaboration"],
+      "platforms": ["twitter", "reddit"],
+      "priority": "medium",
+      "targetAudience": "all developers",
+      "tone": "friendly",
+      "includeBranding": true
+    }
+  ],
+  "settings": {
+    "rotationStrategy": "sequential",
+    "allowRepeat": true,
+    "repeatAfterDays": 30,
+    "maxVariations": 5
+  },
+  "branding": {
+    "name": "NEOIPTV",
+    "website": "https://bit.ly/4ajZ4Br",
+    "whatsapp": "https://wa.link/2stl0a",
+    "includeInPosts": true
+  }
+}
